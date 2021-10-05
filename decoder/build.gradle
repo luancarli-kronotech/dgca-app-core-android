@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion Config.compileSdk
+    compileSdkVersion 31
 
     defaultConfig {
-        minSdkVersion Config.minSdk
-        targetSdkVersion Config.targetSdk
+        minSdkVersion 26
+        targetSdkVersion 31
         versionCode Config.versionCode
         versionName Config.versionName
 
@@ -25,8 +25,8 @@ android {
 
     compileOptions {
         coreLibraryDesugaringEnabled = true
-        sourceCompatibility Config.javaVersion
-        targetCompatibility Config.javaVersion
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
     }
 
     kotlinOptions {
